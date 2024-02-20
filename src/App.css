@@ -1,0 +1,54 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; /* Add a background color for the entire page */
+}
+
+/* Header Styles */
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center; /* Center align the text within the header */
+}
+
+/* Main Content Styles */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the start of the main axis */
+  padding: 20px;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  max-width: 1200px; /* Adjust as needed */
+  padding: 20px; /* Add padding to the dashboard container */
+}
+
+/* Module Styles */
+.module {
+  background-color: #fff; /* Change the background color to white */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Update the box shadow */
+  padding: 20px;
+}
+
+.module h3 {
+  margin-top: 0;
+  font-size: 18px; /* Increase the font size for module headings */
+  color: #333; /* Update the color of module headings */
+}
+
+.module p {
+  margin-bottom: 0;
+  font-size: 14px; /* Reduce the font size for module descriptions */
+  color: #666; /* Update the color of module descriptions */
+}
